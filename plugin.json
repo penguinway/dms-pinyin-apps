@@ -1,0 +1,14 @@
+{
+    "id": "pinyinApps",
+    "name": "应用拼音搜索",
+    "description": "在聚合搜索中使用全拼或首字母查找中文应用。",
+    "version": "1.0.0",
+    "author": "penguinway",
+    "type": "launcher",
+    "capabilities": ["launcher"],
+    "component": "./PinyinLauncher.qml",
+    "icon": "translate",
+    "trigger": "",
+    "requires_dms": ">=1.6.3",
+    "permissions": ["settings_read", "settings_write"]
+}
